@@ -19,6 +19,7 @@
 		CB8B1547293EFCA100397B69 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8B1546293EFCA100397B69 /* DetailViewController.swift */; };
 		E7CF18B62AB7779500A6985B /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CF18B52AB7779500A6985B /* AlbumsViewController.swift */; };
 		E7CF18B82AB778DC00A6985B /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CF18B72AB778DC00A6985B /* Album.swift */; };
+		E7CF18BA2AB77BD100A6985B /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CF18B92AB77BD100A6985B /* AlbumCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		CB8B1546293EFCA100397B69 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		E7CF18B52AB7779500A6985B /* AlbumsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsViewController.swift; sourceTree = "<group>"; };
 		E7CF18B72AB778DC00A6985B /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		E7CF18B92AB77BD100A6985B /* AlbumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				CB7254DE2939D37800F531FB /* AppDelegate.swift */,
 				CB7254E02939D37800F531FB /* SceneDelegate.swift */,
 				CB7254E42939D37800F531FB /* Main.storyboard */,
+				E7CF18B92AB77BD100A6985B /* AlbumCell.swift */,
 				E7CF18B52AB7779500A6985B /* AlbumsViewController.swift */,
 				CB7254E72939D37A00F531FB /* Assets.xcassets */,
 				CB7254E92939D37A00F531FB /* LaunchScreen.storyboard */,
@@ -177,6 +180,7 @@
 				CB7254E12939D37800F531FB /* SceneDelegate.swift in Sources */,
 				CB7254F6293B224000F531FB /* Track.swift in Sources */,
 				E7CF18B82AB778DC00A6985B /* Album.swift in Sources */,
+				E7CF18BA2AB77BD100A6985B /* AlbumCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
