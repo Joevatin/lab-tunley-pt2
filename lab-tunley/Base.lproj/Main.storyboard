@@ -253,10 +253,10 @@
             </objects>
             <point key="canvasLocation" x="1127.4809160305342" y="3.5211267605633805"/>
         </scene>
-        <!--View Controller-->
+        <!--Albums View Controller-->
         <scene sceneID="gIP-b9-iwX">
             <objects>
-                <viewController id="wwB-J0-rbi" sceneMemberID="viewController">
+                <viewController id="wwB-J0-rbi" customClass="AlbumsViewController" customModule="lab_tunley" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nBP-y1-QHZ">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
