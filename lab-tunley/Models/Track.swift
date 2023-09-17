@@ -9,7 +9,7 @@ import Foundation
 
 // TODO: Pt 1 - Create a Track model struct
 
-struct Track {
+struct Track: Decodable {
     let trackName: String
     let artistName: String
     let artworkUrl100: URL
@@ -21,6 +21,10 @@ struct Track {
     let trackTimeMillis: Int
 }
 
+struct TracksResponse: Decodable {
+    let resultCount: Int
+    let results: [Track]
+}
 // TODO: Pt 1 - Create an extension with a mock tracks static var
 
 extension Track {
