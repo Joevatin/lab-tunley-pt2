@@ -51,7 +51,8 @@ class TracksViewController: UIViewController, UITableViewDataSource {
         }
 
         // Initiate the network request
-        task.resume()        print(tracks)
+        task.resume()
+        print(tracks)
 
         tableView.dataSource = self
         
