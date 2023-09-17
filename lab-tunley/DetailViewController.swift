@@ -4,7 +4,7 @@
 //
 //  Created by Charlie Hieger on 12/5/22.
 //
-
+//
 import UIKit
 import Nuke
 
@@ -19,26 +19,28 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var releaseDateLabel: UILabel!
     @IBOutlet weak var durationLabel: UILabel!
 
-    var track: Track!
+    // TODO: Pt 1 - Add a track property
+    var track:Track!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // TODO: Pt 1 - Configure the UI elements with the passed in track
         Nuke.loadImage(with: track.artworkUrl100, into: trackImageView)
+
         trackNameLabel.text = track.trackName
         artistLabel.text = track.artistName
         albumLabel.text = track.collectionName
         genreLabel.text = track.primaryGenreName
-
-        // Create a date formatter to style our date and convert it to a string
+        
         let dateFormatter = DateFormatter()
         dateFormatter.dateStyle = .medium
         releaseDateLabel.text = dateFormatter.string(from: track.releaseDate)
-
-        // Use helper method to convert milliseconds into `mm:ss` string format
+        
         durationLabel.text = formattedTrackDuration(with: track.trackTimeMillis)
-
+        
     }
+
 
 
 }
